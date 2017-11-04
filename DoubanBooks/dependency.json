@@ -1,0 +1,10 @@
+{
+    "DebugAndRelease": {
+     
+        "LogInterface": "1.0.9708824",
+        "LoggerWindows": "1.0.05f7a24",
+     
+        "PortableCSharpLib": "1.0.c771819"
+    },
+    "Single": {}
+}

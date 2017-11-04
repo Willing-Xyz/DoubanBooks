@@ -1,0 +1,10 @@
+.vs
+*.bak
+*.orig
+bin/
+obj/
+lib/
+/packages
+/Test
+/TestResults
+logs/
