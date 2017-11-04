@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogInterface</name>
+    </assembly>
+    <members>
+        <member name="T:LogInterface.ILogFactory">
+            <summary>
+            用于获取ILogger对象
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsDebugEnabled">
+            <summary>
+            Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Debug" /> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsErrorEnabled">
+            <summary>
+                Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Error" /> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsFatalEnabled">
+            <summary>
+                Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Fatal" /> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsInfoEnabled">
+            <summary>
+                Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Info" /> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsTraceEnabled">
+            <summary>
+                Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Trace" /> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.ILogger.IsWarnEnabled">
+            <summary>
+                Checks if this logger is enabled for the <see cref="F:LogInterface.LogLevel.Warn" /> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Debug(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Debug"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Debug(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Debug"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Error(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Error"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Error(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Error"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Fatal(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Fatal"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Fatal(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Fatal"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Info(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Info"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Info(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Info"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Trace(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Trace"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Trace(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Trace"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Warn(System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Warn"/> level.
+            </summary>
+        </member>
+        <member name="M:LogInterface.ILogger.Warn(System.Exception,System.String,System.Object[])">
+            <summary>
+            Log a message object with the <see cref="F:LogInterface.LogLevel.Warn"/> level.
+            </summary>
+        </member>
+        <member name="P:LogInterface.Logs.LogFactory">
+            <summary>
+            全局的LogFactory。默认为NoOpLogFactory。
+            </summary>
+        </member>
+        <member name="T:LogInterface.NoOpLogFactory">
+            <summary>
+            返回NoOpLogger
+            </summary>
+        </member>
+        <member name="T:LogInterface.NoOpLogger">
+            <summary>
+            do nothing
+            </summary>
+        </member>
+    </members>
+</doc>

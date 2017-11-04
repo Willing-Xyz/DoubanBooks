@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PortableCSharpLib</name>
+    </assembly>
+    <members>
+        <member name="T:PortableCSharpLib.CommonClass.BiDictionary`2">
+            <summary>
+            bi-directional dictionary
+            </summary>
+            <typeparam name="TFirst"></typeparam>
+            <typeparam name="TSecond"></typeparam>
+        </member>
+        <member name="M:PortableCSharpLib.CommonClass.BiDictionary`2.Add(`0,`1)">
+            <summary>
+            Add element
+            </summary>
+            <param name="first"></param>
+            <param name="second"></param>
+        </member>
+        <member name="T:PortableCSharpLib.CommonClass.CFixedList`1">
+            <summary>
+            List with fixed length
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:PortableCSharpLib.CommonClass.Rect">
+            <summary>
+            Basic class for rectangle, with origin at top left. X axis pointing right, and Yaxis pointing down.
+            </summary>
+        </member>
+        <member name="T:PortableCSharpLib.Interace.IDump">
+            <summary>
+            Interface to save and restore status of a class
+            </summary>
+        </member>
+        <member name="T:PortableCSharpLib.Extension">
+            <summary>
+            Extension methods that can be used across platforms
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.ConvertListToString``1(System.Collections.Generic.IList{``0},System.Int32,System.Char)">
+            <summary>
+            convert list to string for printing
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <param name="width"></param>
+            <param name="separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.Each``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0,System.Int32})">
+            <summary>
+            Extension function to iterate each element of IEnumerable
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="ie"></param>
+            <param name="action"></param>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetUTCFromUnixTime(System.Int64)">
+            <summary>
+            convert time in seconds to universal time zone
+            </summary>
+            <param name="time">time in seconds since 1970/01/01 00:00:00</param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetUnixTimeFromUTC(System.DateTime)">
+            <summary>
+            convert 
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetJsonFromUnixTime(System.Int64)">
+            <summary>
+            create json date {Year, Month, Day}
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetJsonFromUTC(System.DateTime)">
+            <summary>
+            create json date {Year, Month, Day}
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetIso8601WeekOfYear(System.DateTime)">
+            <summary>
+            Get week number of given date
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetIsoYear(System.DateTime)">
+            <summary>
+            get year of given date
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetWritableProperties(System.Type)">
+            <summary>
+            get list of properties of an object which are writable
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetPropertyValueByName(System.Object,System.String)">
+            <summary>
+            Get the value of a propery given by name
+            </summary>
+            <param name="obj"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.SetPropertyValueByName(System.Object,System.String,System.Object)">
+            <summary>
+            Set the value of a propery given by name
+            </summary>
+            <param name="obj"></param>
+            <param name="paramName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.GetAttributeForProperty``1(System.Object,System.String)">
+            <summary>
+            Get attribute for given property
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="instance"></param>
+            <param name="propertyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.HasInterface(System.Type,System.Type)">
+            <summary>
+            Check if a type has implemented the given interface
+            </summary>
+            <param name="type"></param>
+            <param name="interfaceType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.HasInterface(System.Type,System.String)">
+            <summary>
+            Check if a type has implemented the given interface
+            </summary>
+            <param name="type"></param>
+            <param name="interfaceName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.IsNumericType(System.Type)">
+            <summary>
+            check if a type is numeric
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.IsNullable(System.Type)">
+            <summary>
+            check if type is nullable
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.IsString(System.Type)">
+            <summary>
+            check if a type is string
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.IsDateTime(System.Type)">
+            <summary>
+            check if a type is DateTime
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.Extension.IsNumericOrString(System.Type)">
+            <summary>
+            check if a type is numeric of string
+            </summary>
+            <param name="type"></param>
+            <returns></returns>
+        </member>
+        <member name="F:PortableCSharpLib.Constant.EpochUTC">
+            <summary>
+            Define the origin of time
+            </summary>
+        </member>
+        <member name="T:PortableCSharpLib.General">
+            <summary>
+            Generic facility functions
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.General.ConvertListToString``1(System.Collections.Generic.List{``0})">
+            <summary>
+            function to convert list to string for the purpose display
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.PadCenter(System.String,System.Int32)">
+            <summary>
+            prepend/append space to a string such that the string reach a fixed length
+            </summary>
+            <param name="text"></param>
+            <param name="maxLength"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.BinarySearch``1(System.Collections.Generic.IList{``0},System.Int32,System.Int32,``0,System.Boolean)">
+            <summary>
+            binary search list
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <param name="low"></param>
+            <param name="high"></param>
+            <param name="data"></param>
+            <param name="isReturnJustSmallerElement">if true, will return index if: 1) data is not in the list 2) but data is within the range </param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.SerializeToXmlStr``1(``0)">
+            <summary>
+            Serialize objec to xml string
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.DeserializeFromXmlStr``1(System.String)">
+            <summary>
+            Deserialize object from xml string
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="xml"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.GetWeekEnd(System.Int32,System.Int32)">
+            <summary>
+            get the end of a given week => statuday 24:00:00
+            </summary>
+            <param name="year"></param>
+            <param name="weekNo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.General.GetWeekStart(System.Int32,System.Int32)">
+            <summary>
+            get the start of a given week => sunday 21:00:00
+            </summary>
+            <param name="year"></param>
+            <param name="weekNo"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture">
+            <summary>
+            data stucture for storing sampling data
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.Assign(PortableCSharpLib.TechnicalAnalysis.IQuoteCapture)">
+            <summary>
+            使用参数提供的内容填充结构
+            </summary>
+            <param name="q"></param>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.Append(PortableCSharpLib.TechnicalAnalysis.IQuoteCapture)">
+            <summary>
+            添加数据，但不触发DataAdded Event。
+            </summary>
+            <param name="q"></param>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.Add(System.Int64,System.Double)">
+            <summary>
+            添加数据并触发DataAdded Event。
+            </summary>
+            <param name="time"></param>
+            <param name="price"></param>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.Extract(System.Int32,System.Int32)">
+            <summary>
+            提取在[sindex, eindex]中的股票
+            </summary>
+            <param name="sindex">start index</param>
+            <param name="eindex">end index</param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.Extract(System.Int64,System.Int64)">
+            <summary>
+            提取包含在[stime, etime]中的quote。
+            </summary>
+            <param name="stime">start time</param>
+            <param name="etime">end time</param>
+            <returns></returns>
+        </member>
+        <member name="E:PortableCSharpLib.TechnicalAnalysis.IQuoteCapture.DataAdded">
+            <summary>
+            Event when new data is added
+            </summary>
+        </member>
+        <member name="T:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic">
+            <summary>
+            interface for basic quote info
+            </summary>
+        </member>
+        <member name="P:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Time">
+            <summary>
+            已非递减排序
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Clear">
+            <summary>
+            Clear internal data structure Time, Open, Close, Low, High, Volume
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Append(PortableCSharpLib.TechnicalAnalysis.IQuoteCapture,System.Int32,System.Boolean)">
+            <summary>
+            Append quote to the end. If subInterval not specified, all elements added must be multiple of the existing interval.
+            Otherwise, the last element can be added when it is multiple of subInterval. For example, if original interval is one hour
+            and subInterval is 15 minutes, we are allowed to add the last element if it is multiple of 15, i.e., 15, 30 and 45.
+            不完整的值（即不是Interval的整数倍）最多只能有一个，且在序列的尾部。在添加完整的值或不完整的值时，都会删除之前不完整的值。
+            </summary>
+            <param name="q">quote to append</param>
+            <param name="subInterval">sub interval</param>
+            <param name="isFillGap">indicate whether to fill missing data</param>
+            <returns>成功添加的数量</returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Append(PortableCSharpLib.TechnicalAnalysis.IQuoteBasic,System.Int32,System.Boolean)">
+            <summary>
+            Append quote to the end. If subInterval not specified, all elements added must be multiple of the existing interval.
+            Otherwise, the last element can be added when it is multiple of subInterval. For example, if original interval is one hour
+            and subInterval is 15 minutes, we are allowed to add the last element if it is multiple of 15, i.e., 15, 30 and 45.
+            不完整的值（即不是Interval的整数倍）最多只能有一个，且在序列的尾部。在添加完整的值或不完整的值时，都会删除之前不完整的值.
+            </summary>
+            <param name="q"></param>
+            <param name="subInterval"></param>
+            <param name="isFillGap">indicate whether to fill missing data</param>
+            <returns>成功添加的数量</returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Add(System.Int64,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean)">
+            <summary>
+            Add single data point and raise event if indicated.
+            </summary>
+            <param name="t"></param>
+            <param name="o"></param>
+            <param name="h"></param>
+            <param name="l"></param>
+            <param name="c"></param>
+            <param name="v"></param>
+            <param name="isTriggerDataAdded">是否触发事件</param>
+        </member>
+        <member name="E:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.QuoteBasicDataAdded">
+            <summary>
+            event raised when Add is called with isTriggerDataAdded == true
+            </summary>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.FindIndexForGivenTime(System.Int64,System.Boolean)">
+            <summary>
+            Find index for the given time. If isReturnJustSmallerElement == false, -1 will be returned if time is not found. 
+            Otherwise, index of just smaller element will be returned. 
+            </summary>
+            <param name="time">time to search</param>
+            <param name="isReturnJustSmallerElement">indicate whether to return the index with just smaller time</param>
+            <returns>index of the found time</returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.FindIndexWhereTimeLocated(System.Int64)">
+            <summary>
+            Find index where the given time is located. For candlestick, each index represents the change (o, c, h, l) of the price over 
+            the time period within (index * (interval-1), index * interval]. This function return the index for any given time, 
+            where the time is located. 
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Extract(System.Int64,System.Int64)">
+            <summary>
+            Extract quote located within [stime, etime]
+            </summary>
+            <param name="stime"></param>
+            <param name="etime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Extract(System.Int32,System.Int32)">
+            <summary>
+            Extract quote within [sindex, eindex]
+            </summary>
+            <param name="sindex"></param>
+            <param name="eindex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PortableCSharpLib.TechnicalAnalysis.IQuoteBasic.Insert(PortableCSharpLib.TechnicalAnalysis.IQuoteBasic)">
+            <summary>
+            Insert quote before the beginning, after the end or in the middle. 
+            </summary>
+            <param name="q"></param>
+            <returns></returns>
+        </member>
+        <member name="T:PortableCSharpLib.TechnicalAnalysis.QuoteCapture">
+            <summary>
+            class used for store quotes captured from screen
+            </summary>
+        </member>
+    </members>
+</doc>
