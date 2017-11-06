@@ -24,11 +24,37 @@ namespace DoubanBooks
             var tagsStr = File.ReadAllText("Tags.json");
             var tags = JsonConvert.DeserializeObject<List<string>>(tagsStr);
 
-            var spider = new DoubanBookSpider();
+            var dic = new ConcurrentDictionary<DoubanBook, bool>();
+
+            var files = Directory.GetFiles("Books");
+
+            foreach (var file in  files)
+            {
+                var stream1 = File.OpenRead(file);
+                var work1 = new HSSFWorkbook(stream1);
+
+                var sheet1 = work1.GetSheetAt(0);
+
+                for (int x = 0; x <= sheet1.LastRowNum; ++x)
+                {
+                    var row1 = sheet1.GetRow(x);
+                    if (row1 == null)
+                        continue;
+                    var book1 = new DoubanBook
+                    {
+                        Title = row1.GetCell(0).ToString(),
+                        Link = row1.GetCell(3).ToString()
+                    };
+                    dic.TryAdd(book1, false);
+                }
+                stream1.Close();
+            }
+
+            var spider = new DoubanBookSpider(dic);
 
             logger.Info("Start");
             var books = spider.CaptureAsync(tags).Result;
-            //var books = new Dictionary<DoubanBook, bool> { { new DoubanBook { Title = "" }, true }, { new DoubanBook { Title = "" }, true } };
+            //var books = new Dictionary<DoubanBook, bool> { { new DoubanBook { Title = "" }, true }, { new DoubanBook { Title = "4" }, true } };
             var work = new HSSFWorkbook();
             var sheet = work.CreateSheet();
             int i = 0;
@@ -43,7 +69,7 @@ namespace DoubanBooks
                 row.CreateCell(5).SetCellValue(p.PublishDate);
             }
 
-            var stream = new FileStream($"Books-{DateTime.Now.ToString("yyyy-MM-dd-HH-mm-ss.fff")}.xls", FileMode.CreateNew);
+            var stream = new FileStream($".\\Books\\Books-{DateTime.Now:yyyy-MM-dd-HH-mm-ss.fff}.xls", FileMode.CreateNew);
             work.Write(stream);
             stream.Close();
 
@@ -64,6 +90,16 @@ namespace DoubanBooks
         private int _bookCount = 0;
         private Random _random = new Random();
 
+        public DoubanBookSpider(ConcurrentDictionary<DoubanBook, bool> books)
+        {
+            _books = books;
+        }
+
+        public DoubanBookSpider()
+        {
+                
+        }
+
         public async Task<IDictionary<DoubanBook,bool>> CaptureAsync(List<string> tags)
         {
             foreach (var tag in tags)
@@ -82,6 +118,7 @@ namespace DoubanBooks
             }
             else
             {
+                _logger.Info($"process tag.{tag}");
                 _tags.TryAdd(tag, false);
             }
 
@@ -90,7 +127,7 @@ namespace DoubanBooks
             while (true)
             {
                 // 防止ip被封
-                var waitTime = _random.Next(1000, 3000);
+                var waitTime = _random.Next(3000, 8000);
                 Task.Delay(waitTime).Wait();
 
                 var htmlWeb = new HtmlWeb();
@@ -112,12 +149,17 @@ namespace DoubanBooks
 
                 var rootNode = doc.DocumentNode;
                 if (tagFirstPage == null)
+                {
                     tagFirstPage = rootNode;
+                }
 
                 var items = rootNode.SelectNodes("/html/body/div[3]/div[1]/div/div[1]/div/ul/li");
 
                 if (items == null || items.Count == 0)
+                {
+                    _logger.Info($"no item.{url}");
                     break;
+                }
 
                 foreach (var item in items)
                 {
@@ -126,7 +168,10 @@ namespace DoubanBooks
                     {
                         book = this.ProcessSingleBook(item);
                         if (book.Score < MIN_SCORE)
+                        {
+                            _logger.Info($"ignore book.because score:{book.Score}.title:{book.Title}");
                             continue;
+                        }
                     }
                     catch (Exception e)
                     {
@@ -145,7 +190,7 @@ namespace DoubanBooks
 
                 index += items.Count;
             }
-            this.ProcessRelatedTags(tagFirstPage);
+            //this.ProcessRelatedTags(tagFirstPage);
         }
 
         private void ProcessRelatedTags(HtmlNode rootNode)
@@ -161,6 +206,7 @@ namespace DoubanBooks
             {
                 var tag = node.InnerText.Trim();
                 //tags.Add(tag);
+
                 this.ProcessSingleTag(tag);
             }
         }
@@ -215,7 +261,7 @@ namespace DoubanBooks
         }
     }
 
-    public class DoubanBook : IEqualityComparer<DoubanBook>
+    public class DoubanBook : IEqualityComparer<DoubanBook>, IEquatable<DoubanBook>
     {
         public string Title { get; set; }
         public string Link { get; set; }
@@ -232,6 +278,29 @@ namespace DoubanBooks
         public int GetHashCode(DoubanBook obj)
         {
             return this.Link.GetHashCode() + this.Title.GetHashCode();
+        }
+
+        public bool Equals(DoubanBook other)
+        {
+            if (ReferenceEquals(null, other)) return false;
+            if (ReferenceEquals(this, other)) return true;
+            return string.Equals(Title, other.Title) && string.Equals(Link, other.Link);
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj)) return false;
+            if (ReferenceEquals(this, obj)) return true;
+            if (obj.GetType() != this.GetType()) return false;
+            return Equals((DoubanBook) obj);
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return ((Title != null ? Title.GetHashCode() : 0) * 397) ^ (Link != null ? Link.GetHashCode() : 0);
+            }
         }
     }
 }

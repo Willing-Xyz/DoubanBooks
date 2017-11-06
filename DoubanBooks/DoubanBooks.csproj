@@ -93,6 +93,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TextFile1.txt" />
     <None Include="App.config" />
     <None Include="dependency.json" />
     <Content Include="NLog.config">

@@ -1,0 +1,14 @@
+2017-11-06 00:33:37.7050 WARN load tag page error.https://book.douban.com/tag/编程?start=740 System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1625
+   在 HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1988
+   在 HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1264
+   在 HtmlAgilityPack.HtmlWeb.Load(String url) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1162
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(String tag) 位置 C:\Environment\Cygwin64\home\sun97\DoubanBooks\DoubanBooks\Program.cs:行号 139
+2017-11-06 01:42:35.5715 WARN load tag page error.https://book.douban.com/tag/Android?start=120 System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1625
+   在 HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1988
+   在 HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1264
+   在 HtmlAgilityPack.HtmlWeb.Load(String url) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1162
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(String tag) 位置 C:\Environment\Cygwin64\home\sun97\DoubanBooks\DoubanBooks\Program.cs:行号 139
