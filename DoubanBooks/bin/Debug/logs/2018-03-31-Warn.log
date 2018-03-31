@@ -1,0 +1,326 @@
+2018-03-31 18:19:50.0024 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.5615 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.5675 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.5986 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.6116 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.6417 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.6637 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.6637 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:23.6758 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:28.8773 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:28.9780 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 180
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:28.9911 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 180
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:37.8491 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=60 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:37.8621 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=60 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:55.2824 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.1261 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.1261 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.1652 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.1797 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.2088 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.2219 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.2219 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:20:59.2502 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 178
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 90
+2018-03-31 18:26:05.5468 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:06.6925 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.3943 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4109 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4404 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4404 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4730 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4846 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.4846 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:12.5161 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=20 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:18.9426 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:19.0313 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:19.0313 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=40 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:25.8324 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=60 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:25.8439 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=60 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:29.7820 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=80 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:29.8297 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=80 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:29.8297 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=80 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:29.8502 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=80 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:29.9089 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=80 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:37.1884 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=97 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:37.2084 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=97 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:37.2656 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=97 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:37.3052 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=97 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:37.3152 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=97 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.7736 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.7836 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.8082 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.8172 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.8603 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.8994 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:43.9109 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=117 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:49.4748 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=137 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:49.5039 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=137 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:49.5325 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=137 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:49.5325 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=137 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.4717 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.4942 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.5248 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.FormatException: 该字符串未被识别为有效的 DateTime。有一个未知单词(从索引 1 处开始)。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.5664 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.5664 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:28:54.5810 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=157 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:02.6094 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=177 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:02.6455 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=177 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:02.6611 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=177 System.FormatException: 该字符串未被识别为有效的 DateTime。有一个未知单词(从索引 1 处开始)。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:02.6756 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=177 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:02.6926 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=177 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:11.0331 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=197 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:11.0647 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=197 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 181
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:29:11.0822 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=197 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:30:12.9717 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:33:53.0666 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=0 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 179
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 91
+2018-03-31 18:53:38.8770 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=100 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 205
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 101
+2018-03-31 18:53:46.2209 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=100 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 205
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 101
+2018-03-31 18:53:50.5637 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=100 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 205
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 101
+2018-03-31 18:54:30.8650 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=100 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 206
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 101
+2018-03-31 18:55:31.2546 WARN parse book error.https://book.douban.com/tag/分布式?type=R&start=100 System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 200
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 95
+2018-03-31 19:10:58.5531 WARN parse book error System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 216
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 19:10:58.5821 WARN parse book error System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 216
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 19:10:58.5952 WARN parse book error System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 216
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 19:10:58.5952 WARN parse book error System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 216
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 19:10:58.6433 WARN parse book error System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 216
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 19:33:54.5292 WARN parse book error System.FormatException: 该字符串未被识别为有效的 DateTime。有一个未知单词(从索引 1 处开始)。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 242
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 76
+2018-03-31 19:52:32.7046 WARN parse book error System.FormatException: 该字符串未被识别为有效的 DateTime。有一个未知单词(从索引 1 处开始)。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 244
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 75
+2018-03-31 20:24:01.0746 WARN load tag page error.https://book.douban.com/tag/计算机?type=R&start=680 System.IO.IOException: 从传输流收到意外的 EOF 或 0 个字节。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 HtmlAgilityPack.HtmlDocument.Load(TextReader reader) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlDocument.cs:行号 676
+   在 HtmlAgilityPack.HtmlWeb.Get(Uri uri, String method, String path, HtmlDocument doc, IWebProxy proxy, ICredentials creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1698
+   在 HtmlAgilityPack.HtmlWeb.LoadUrl(Uri uri, String method, WebProxy proxy, NetworkCredential creds) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1988
+   在 HtmlAgilityPack.HtmlWeb.Load(Uri uri, String method) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1264
+   在 HtmlAgilityPack.HtmlWeb.Load(String url) 位置 C:\Users\Jonathan\Desktop\Z\zzzproject\HtmlAgilityPack\HtmlAgilityPack.Shared\HtmlWeb.cs:行号 1162
+   在 DoubanBooks.DoubanBookSpider.GetItems(Tag tag, Int32 pageSize) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 170
+2018-03-31 20:25:48.8365 WARN parse book error System.FormatException: 该字符串未被识别为有效的 DateTime。有一个未知单词(从索引 1 处开始)。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 265
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 76
+2018-03-31 20:34:56.8797 WARN parse book error System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 265
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 76
+2018-03-31 20:35:25.2115 WARN parse book error System.FormatException: 该字符串未被识别为有效的 DateTime。
+   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleBook(HtmlNode item) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 265
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 76

@@ -1,0 +1,137 @@
+2018-03-31 19:09:29.6173 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:30.1606 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:30.7878 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:31.2834 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:31.9234 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:32.5030 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:33.2818 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:33.9231 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:34.4134 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:35.2990 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:35.8969 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:36.5033 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:37.0837 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:09:37.7089 ERROR 获取页面大小失败:计算机 
+2018-03-31 19:37:03.2573 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:03.4458 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:03.6229 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:03.8175 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:03.9831 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:04.1436 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:04.3080 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:05.1833 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:06.5715 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:07.7672 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:09.4735 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:10.5391 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:11.1235 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.0538 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.2444 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.3933 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.5218 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.6596 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:36.8596 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:37.0221 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:37.8646 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:38.3095 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 19:37:38.7682 ERROR 获取页面大小失败:计算机 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 121
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:26:57.3954 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:26:58.2462 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:26:59.4667 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:01.6150 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:02.2643 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:04.2597 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:05.1282 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:06.0239 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:07.1777 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:07.9077 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:08.8235 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:10.0906 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:11.5653 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:12.6312 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:14.4489 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:15.2017 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:15.9042 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
+2018-03-31 22:27:17.4259 ERROR 获取页面大小失败:源码分析 System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DoubanBooks.DoubanBookSpider.GetTagPageSize(Tag tag) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 122
+   在 DoubanBooks.DoubanBookSpider.ProcessSingleTag(Tag tag, CancellationToken token) 位置 E:\test\DoubanBooks\DoubanBooks\DoubanBookSpider.cs:行号 50
