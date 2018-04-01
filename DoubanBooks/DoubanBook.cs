@@ -17,7 +17,7 @@ namespace DoubanBooks
         public DateTime PublishDate { get; set; }
         public string PublishHouse { get; set; }
         public string Desc { get; set; }
-        //public List<string> Tags { get; set; }
+        public List<string> Tags { get; set; } = new List<string>();
 
         public bool Equals(DoubanBook x, DoubanBook y)
         {

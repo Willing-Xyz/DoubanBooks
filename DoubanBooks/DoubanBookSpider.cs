@@ -4,6 +4,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 using static DoubanBooks.TagManager;
@@ -15,26 +16,29 @@ namespace DoubanBooks
         private static ILogger _logger = Logs.LogFactory.GetLogger<DoubanBookSpider>();
 
         private const string BASE_URL = "https://book.douban.com/tag/";
-        private const int MIN_SCORE = 5;
+        private const int MIN_SCORE = int.MinValue;
 
-        private ConcurrentDictionary<DoubanBook, bool> _books { get; set; } = new ConcurrentDictionary<DoubanBook, bool>();
+        private ConcurrentDictionary<string, DoubanBook> _books { get; set; } = new ConcurrentDictionary<string, DoubanBook>();
         private TagManager _tagManager;
 
         private int _bookCount = 0;
         private Random _random = new Random();
 
-        public DoubanBookSpider(TagManager tagManager, ConcurrentDictionary<DoubanBook, bool> books)
+        public event Action<IDictionary<string, DoubanBook>> OnDataChanged;
+
+        public DoubanBookSpider(TagManager tagManager, ConcurrentDictionary<string, DoubanBook> books)
         {
             _books = books;
             _tagManager = tagManager;
         }
 
-        public async Task<IDictionary<DoubanBook,bool>> CaptureAsync(CancellationToken token)
+        public async Task<IDictionary<string, DoubanBook>> CaptureAsync(CancellationToken token)
         {
             Tag tag = null;
             while ((tag = _tagManager.GetUnProcessTag()) != null && !token.IsCancellationRequested)
             {
                 this.ProcessSingleTag(tag, token);
+                this.OnDataChanged?.Invoke(_books);
             }
 
             return this._books;
@@ -92,7 +96,7 @@ namespace DoubanBooks
                         _logger.Warn(e, "parse book error");
                         continue;
                     }
-                    var success = this._books.TryAdd(bookBaseInfo, false);
+                    var success = this._books.TryAdd(bookBaseInfo.Link, bookBaseInfo);
                     if (success)
                     {
                         _bookCount++;
@@ -100,15 +104,18 @@ namespace DoubanBooks
                     }
                     else
                         _logger.Info($"repeat.skip.{bookBaseInfo.Title}");
+
+                    if (!_books[bookBaseInfo.Link].Tags.Contains(tag.TagName))
+                        _books[bookBaseInfo.Link].Tags.Add(tag.TagName);
                 }
 
                 //index += items.Count;
             }
             //this.ProcessRelatedTags(tagFirstPage);
             if (lastBook != null)
-            {
                 _tagManager.AddCompleteTag(tag.TagName, lastBook.PublishDate);
-            }
+            else
+                _tagManager.AddCompleteTag(tag.TagName, DateTime.MinValue);
         }
 
         private int GetTagPageSize(Tag tag)
@@ -160,11 +167,11 @@ namespace DoubanBooks
 
         private HtmlNodeCollection GetItems(Tag tag,  int pageSize)
         {
-            var waitTime = _random.Next(3000, 8000);
-            Task.Delay(waitTime).Wait();
+            //var waitTime = _random.Next(3000, 8000);
+            //Task.Delay(waitTime).Wait();
 
             var htmlWeb = new HtmlWeb();
-            var url = BASE_URL + tag.TagName + $"?type=R&start={pageSize * 20}";
+            var url = BASE_URL + WebUtility.UrlEncode(tag.TagName) + $"?type=R&start={pageSize * 20}";
 
             HtmlDocument doc = null;
             try
@@ -247,6 +254,18 @@ namespace DoubanBooks
                 publishTime = publishHouseAndTimeArr[3];
                 publishHouse = publishHouseAndTimeArr[2];
             }
+            DateTime tmpTime;
+            if (!DateTime.TryParse(publishTime, out tmpTime))
+            {
+                foreach (var x in publishHouseAndTimeArr)
+                {
+                    if (DateTime.TryParse(x, out tmpTime))
+                    {
+                        publishTime = x;
+                        break;
+                    }
+                }
+            }
 
             var scoreNode = item.SelectSingleNode("div[2]/div[2]/span[2]");
             float score = -1;
@@ -271,7 +290,7 @@ namespace DoubanBooks
                 Link = link,
                 Score = score,
                 ScoreNumber = scoreNumber,
-                PublishDate = string.IsNullOrEmpty(publishTime) ? DateTime.MaxValue : DateTime.TryParse(publishTime, out d) ? d : DateTime.MinValue,
+                PublishDate = string.IsNullOrEmpty(publishTime) ? DateTime.MinValue: DateTime.TryParse(publishTime, out d) ? d : DateTime.MinValue,
                 PublishHouse = publishHouse,
                 Desc = desc
             };

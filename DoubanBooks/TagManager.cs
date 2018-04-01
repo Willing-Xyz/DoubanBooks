@@ -24,12 +24,12 @@ namespace DoubanBooks
             {
                 if (File.Exists(COMPLETED_TAGS_PATH))
                 {
-                    var completedTagsStr = File.ReadAllText(COMPLETED_TAGS_PATH);
+                    var completedTagsStr = FileUtils.ReadCommentJson(COMPLETED_TAGS_PATH);
                     var completedTags = JsonConvert.DeserializeObject<List<Tag>>(completedTagsStr);
                     completedTags.ForEach(item => _completeTags.Add(item.TagName, item.CompletedTime));
                 }
 
-                var tagsStr = File.ReadAllText("Tags.json");
+                var tagsStr = FileUtils.ReadCommentJson("Tags.json");
                 var tags = JsonConvert.DeserializeObject<List<string>>(tagsStr);
                 tags.ForEach(item =>
                 {

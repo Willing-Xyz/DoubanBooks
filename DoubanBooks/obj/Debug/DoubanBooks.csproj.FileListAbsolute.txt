@@ -84,3 +84,9 @@ E:\test\DoubanBooks\DoubanBooks\bin\Debug\LogInterface.xml
 E:\test\DoubanBooks\DoubanBooks\bin\Debug\LoggerWindows.pdb
 E:\test\DoubanBooks\DoubanBooks\bin\Debug\PortableCSharpLib.pdb
 E:\test\DoubanBooks\DoubanBooks\bin\Debug\PortableCSharpLib.xml
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\EntityFramework.dll
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\EntityFramework.SqlServer.dll
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\MySql.Data.dll
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\MySql.Data.Entity.EF6.dll
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\EntityFramework.xml
+E:\test\DoubanBooks\DoubanBooks\bin\Debug\EntityFramework.SqlServer.xml
