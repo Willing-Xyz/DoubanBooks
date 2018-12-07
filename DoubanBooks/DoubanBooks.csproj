@@ -104,7 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BookDbContext.cs" />
-    <Compile Include="BookEntity.cs" />
+    <Compile Include="Entities\BookEntity.cs" />
     <Compile Include="DoubanBook.cs" />
     <Compile Include="DoubanBookSpider.cs" />
     <Compile Include="FileUtils.cs" />
@@ -129,8 +129,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Entities\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
